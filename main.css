@@ -8,3 +8,16 @@
   transform: rotateZ(30deg);
   position: relative;
 }
+
+.bird:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border: 15px solid transparent;
+  border-left: 25px solid #FFCA00;
+  transform: rotateZ(-30deg);
+  right: -29px;
+  top: 2px;
+}
