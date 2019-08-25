@@ -1,0 +1,10 @@
+.bird {
+  display: block;
+  width: 100px;
+  height: 150px;
+  background-color: #0089FF;
+  margin-left: 25px;
+  border-radius: 50px 50px 100px 0;
+  transform: rotateZ(30deg);
+  position: relative;
+}
