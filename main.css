@@ -35,3 +35,26 @@
   top: 40px;
   left: -20px;
 }
+
+.eye {
+  display: block;
+  width: 17px;
+  height: 17px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.eye:before {
+  content: '';
+  display: block;
+  width: 11px;
+  height: 11px;
+  background-color: #000000;
+  border-radius: 10px;
+  position: absolute;
+  top: 4px;
+  right: 1px;
+}
